@@ -9,21 +9,23 @@
  */
 public class Sportello implements Runnable {
     /**
-     * risorse condivise fra i due thread
+     * risorse condivise fra i due thread (ListaClient)
      */
     private ListaClienti listaClienti;
     private final int minTempoServizio = 1000;
     private final int maxTempoServizio = 4000;
     /**
      * constructor
-     * @param listaClienti
+     * @param listaClienti (risorsa condivisa)
      */
     public Sportello(ListaClienti listaClienti) {
         this.listaClienti = listaClienti;
     }
 
     /**
-     * TODO: cosa fa?
+     * TODO: cosa fa? lo mando avanti tipo while true, che è piu difficile
+     * da gestire. Visto che sto servendo un cliente, dalla Lista Cliente dico di rimuovere
+     * un cliente
      * @see Runnable
      */
     public void run() {
