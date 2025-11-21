@@ -25,7 +25,7 @@ public class Sportello implements Runnable {
     /**
      * TODO: cosa fa? lo mando avanti tipo while true, che è piu difficile
      * da gestire. Visto che sto servendo un cliente, dalla Lista Cliente dico di rimuovere
-     * un cliente.
+     * un cliente
      * @see Runnable
      */
     public void run() {

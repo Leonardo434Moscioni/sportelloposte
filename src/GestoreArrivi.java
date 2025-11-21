@@ -20,7 +20,6 @@ public class GestoreArrivi implements Runnable {
         this.listaClienti = listaClienti;
     }
     /**
-     * TODO? COSA FA
      * Su addCliente all 11 cliente restituisce NULL, il break dopo
      * mi fa uscire dallo while ed a quel punto viene sempre eseguito il finally.
      * @see Runnable
