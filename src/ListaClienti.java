@@ -28,7 +28,7 @@ public class ListaClienti {
     * si genera l'eccezione : IllegalMonitorStateException,*/
 
     /**
-     * TODO: cosa fa?
+     * TODO: cosa fa? messo sugli appunti
      *
      */
     public synchronized Integer rimuoviCliente() throws
@@ -42,7 +42,7 @@ public class ListaClienti {
     }
 
     /**
-     * TODO: cosa fa?
+     * TODO: cosa fa? sugli appunti
      *
      */
     public synchronized Integer addCliente() {

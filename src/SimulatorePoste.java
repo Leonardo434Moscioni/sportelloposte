@@ -4,7 +4,7 @@
  * messi in attesa da un totem elettronico che assegna
  * un numero progressivo e stampa il ticket
  * Clienti gestiti da un solo sportello
- * @author frida
+ * @author frida.
  * @version 1.0
  */
 public class SimulatorePoste {
