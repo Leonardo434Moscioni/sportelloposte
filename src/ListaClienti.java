@@ -33,9 +33,9 @@ public class ListaClienti {
      */
     public synchronized Integer rimuoviCliente() throws
             InterruptedException {
-        while (ultimoServito >= ultimoArrivo) {
+        while (ultimoServito >= ultimoArrivo) { //5 5
             System.out.println("non ci sono arrivi dopo l'ultimo servito");
-            wait();
+             wait();
         }
         ultimoServito++;
         return ultimoServito;
